@@ -10,6 +10,8 @@
 7. press OK on *Start*, and the upgrading process will start
 8. wait the process to finish, it will reboot automatically
 
+![usb upg](https://github.com/DVBFinder/hellobox8/blob/master/pic/usb_upg.jpg)
+
 ```
 exceptions:
 it will popup "**Upgrade fail**" if your firmware is not for Hellobox 8.
