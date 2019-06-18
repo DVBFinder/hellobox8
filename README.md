@@ -10,29 +10,36 @@
 7. press OK on *Start*, and the upgrading process will start
 8. wait the process to finish, it will reboot automatically
 
-![usb upg](https://github.com/DVBFinder/hellobox8/blob/master/pic/usb_upg.jpg)
-
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/usb_upg.jpg)
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/usb_upg_prompt.jpg)
 ```
 exceptions:
 it will popup "**Upgrade fail**" if your firmware is not for Hellobox 8.
 ```
 
-## usb dump
-1. goto Mainmenu -> tools -> USB upgrade menu
-2. press RED key to dump current firmware(including all your programs/user settings/..) to USB
-3. notice the red prompt in the menu bottom for dump file name.
+## backup firmware with USB
+1. backup the firmware before upgrading is strongly recommended
+2. goto Mainmenu -> tools -> USB upgrade menu
+3. press RED key to dump current firmware(including all your programs/user settings/..) to USB
+4. notice the red prompt in the menu bottom for dump file name.
+5. the backup firmware can be used to recovery all your previous information
+
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/usb_dump.jpg)
 
 ## network upgrade
-1. prompt "New version found" will show if there is new hellobox 8 firmware version released
+1. prompt "New version found" will show on bootup if there is new hellobox 8 firmware version released
 2. connect the network correctly, and goto Mainmenu -> tools -> Network upgrade menu
 3. select "YES" option in *Save data* field if you want save the programs/user settings/accounts, select "NO" if you want a clean new firmware
 4. press OK on *Start*, and the box will check the version information on the server
 5. version information about current box version and the latest stable version on the server will be prompted, and select YES if you want to upgrade
 6. wait the process to finish, it will reboot automatically
 
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/net_upg.jpg)
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/net_upg_progress.jpg)
+
 ```
 exceptions:
-	it will popup "**Upgrade fail**" if the box can not get version information or box firmware on the server
+	it will prompt "Upgrade fail" if the box can not get version information or box firmware on the server
 	it also fails if the firmware is broken after finishing downloading
 ```
 
@@ -40,7 +47,8 @@ exceptions:
 > for some unexpected reason, your hellobox 8 may crash, and can not boot up correctly. Do not be panic, check this:
 **power on the box and check if the panel LED can display "boot" or not**
 
-1. if the front panel LED can display "boot", it's fine, please use **auto upgrade** 
+1. if the front panel LED can display "boot" like below, it's fine, please use **auto upgrade** 
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/boot.jpg)
 2. if no front panel LED display at all :(, the only way is using **RS232 upgrade**
 
 ### auto upgrade
@@ -58,8 +66,10 @@ exceptions:
 ```
 
 ### RS232 upgrade
-this is the final way to recovery the box. it need you to open the box and connect the RS232 cable to PC.
+this is the final way to recovery the box. it need you to open the box and connect the RS232 cable to PC. 
 1. first remove the screw under the box
-![remove the screw](screw.jpg)
+2. open the box very carefully
+3. plugin the 3 line RS232 interface, and connect the RS232 to PC
+4. use PC tool to upgrade. **update this part later!**
 
 
