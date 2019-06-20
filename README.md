@@ -1,7 +1,7 @@
 
-# HelloBox 8 upgrade introduction
+# Hellobox 8 upgrade introduction
 ## USB Upgrade
-1. Download the latest hellobox 8 firmware from [www.freedvb.com](http://www.freedvb.com)
+1. Download the latest Hellobox 8 firmware from [www.freedvb.com](http://www.freedvb.com)
 2. Take the firmware `hellobox8_20190617.bin` as an example below
 3. Put the firmware `hellobox8_20190617.bin` into the USB root directory, and insert the USB to the box 
 4. Go to Mainmenu -> tools -> USB upgrade menu
@@ -27,11 +27,11 @@ It will prompt "Upgrade fail" if your firmware is not suitable for Hellobox 8.
 ![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/usb_dump.jpg)
 
 ## Network upgrade
-1. If a new hellobox 8 firmware version is released, Hellobox 8 will display "Found New Version" at startup
+1. If a new Hellobox 8 firmware version is released, Hellobox 8 will display "Found New Version" at startup
 2. Connect to the network correctly, and go to Mainmenu -> tools -> Network upgrade menu
 3. Select "Yes" option in *Save data* field if you want to save the programs/user settings/accounts, or "No" if you want a clean new firmware
 4. Press OK on *Start*, then the box will check the version information on the server
-5. Check the version information about current hellobox 8 version and the latest stable version on the server, and select "Yes" if you want to upgrade
+5. Check the version information about current Hellobox 8 version and the latest stable version on the server, and select "Yes" if you want to upgrade
 6. Wait for the process to complete, it will reboot automatically
 
 ![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/net_upg.jpg)
@@ -46,7 +46,7 @@ DO NOT POWER OFF the box if the progress is bigger than 50%!
 ```
 
 ## Exception handle
-> For some unexpected reason, your hellobox 8 may crash, and fail to start properly. Don't panic, check it out:
+> For some unexpected reason, your Hellobox 8 may crash, and fail to start properly. Don't panic, check it out:
 > 
 **Turn on the Hellobox 8 power, and check the panel LED display**
 
