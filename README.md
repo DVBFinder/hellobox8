@@ -63,8 +63,7 @@ DO NOT POWER OFF the box if the progress is bigger than 50%!
 6. REMOVE THE USB AND DELETE THE `auto_burn.fac` FILE IN USB!!! 
 7. Turn off and turn on the box, it will be back
 
-*add gif here later*
-![gif of auto upgrade](https://github.com/DVBFinder/hellobox8/blob/master/pic/auto.gif)
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/auto_burn.gif)
 
 ```
 exceptions:
