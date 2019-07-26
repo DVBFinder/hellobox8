@@ -91,6 +91,7 @@ The last step is to save all your modifications!
 ![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/hm_save.PNG)  
 Save with a new name is recommended.
 
+## Information
+This tool may popup a announcement image for about 10 seconds. This is the way to broadcast important news for Hellobox.
 
-## Issues
-Please feel free to ask questions in [www.freedvb.com](www.freedvb.com)
+Any issue, please feel free to ask questions in [www.freedvb.com](www.freedvb.com)
