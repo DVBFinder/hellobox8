@@ -74,11 +74,12 @@ So remember to remove the "auto_burn.fac"!
 
 ### RS232 upgrade 
 This is the last way to recover the box. it requires you to open the box cover, and connect the RS232 cable to PC. 
-1. Remove the screws under the box
-2. Open the box very carefully! The WIFI antenna is connected to the box cover
-3. Insert a 3-wire RS232 interface, and connect the RS232 to PC
-4. Upgrade using PC tool. 
-
-**update this section with picture later!**
+1. Remove the screws under the box cover  
+2. Open the box very carefully! The WIFI antenna is connected to the box 
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/upg_unbox.jpg)
+3. Insert a 3-wire RS232 interface, and connect the RS232 to PC with a RS232 cable 
+![image](https://github.com/DVBFinder/hellobox8/blob/master/pic/upg_rs232.jpg)
+4. Download [hellobox8_upg](https://drive.google.com/open?id=1ldPlZLthXh3AOZet2XRLL6aRLpji_V-M) tool, and upgrade with it 
+5. Please refer to readme_upgrade.jpg/readme_download.jpg for hellobox8_upg usuage.
 
 
